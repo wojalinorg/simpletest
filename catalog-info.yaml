@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "bohlin-dashboard"
-  description: "Bohlin Dashboard used for displaying TAP relevant data in a Bokeh dashboard"
+  name: "raffael-test"
+  description: "Raffael Test"
   caretakers: 
     - user:dont.mind
   tags:
@@ -13,8 +13,8 @@ metadata:
     - docker
     - ecs
   annotations:
-    backstage.io/source-location: url:https://github.com/wojalin/DictionaryExtension/
-    github.com/project-slug: wojalin/DictionaryExtension
+    backstage.io/source-location: url:https://github.com/wojalinorg/simpletest/
+    github.com/project-slug: wojalinorg/simpletest
     argocd/app-name: argo-airflow
     goharbor.io/repository-slug: airflow-plugin/airflow_local
   labels:
