@@ -13,10 +13,7 @@ metadata:
     - docker
     - ecs
   annotations:
-    backstage.io/source-location: url:https://github.com/wojalinorg/simpletest/
-    github.com/project-slug: wojalinorg/simpletest
     argocd/app-name: argo-airflow
-    goharbor.io/repository-slug: airflow-plugin/airflow_local
   labels:
     hosting: aws
     runtime: container-ecs-fargate
